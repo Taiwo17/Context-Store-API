@@ -1,0 +1,87 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 2.25rem 2.25rem 2rem 4rem;
+}
+.img {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.title_container {
+  margin-bottom: 32px;
+}
+
+.content {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #411530;
+  margin-bottom: 20px;
+}
+.btn {
+  width: 100%;
+  color: white;
+  background-color: #411530;
+  display: flex;
+  align-self: flex-start;
+  padding: 8px 0 8px 76px;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  cursor: pointer;
+}
+.btn_container {
+  margin-bottom: 137px;
+}
+
+/* Cart icon */
+
+.title {
+  color: #411530;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  position: relative;
+  padding: 2.25rem 2.25rem 2rem 4rem;
+}
+.title > span > svg {
+  color: #411530;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+.title > span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.75rem;
+}
+.title > span > span:nth-child(2) {
+  position: absolute;
+  top: -0.9375rem;
+  right: -1.5625rem;
+  font-size: 0.875rem;
+  border: 0.0625rem solid #411530;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+}

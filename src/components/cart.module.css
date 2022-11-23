@@ -1,0 +1,209 @@
+.container {
+  padding: 30px 36px 32px 64px;
+}
+
+.title_container {
+  margin-bottom: 52px;
+}
+.title {
+  color: #411530;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  position: relative;
+}
+.title > span > svg {
+  color: #411530;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+.title > span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.75rem;
+}
+.title > span > span:nth-child(2) {
+  position: absolute;
+  top: -0.9375rem;
+  right: -1.5625rem;
+  font-size: 0.875rem;
+  border: 0.0625rem solid #411530;
+  border-radius: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+}
+.product_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.75rem;
+}
+.product_tag {
+  width: 70%;
+}
+.price_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #411530;
+}
+.price_container {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.price_container :nth-child(1) {
+  width: 30%;
+}
+.price_container :nth-child(2) {
+  width: 40%;
+}
+
+.cart_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.first_items_section {
+  width: 70%;
+}
+.second_items_section {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.second_items_section :nth-child(1) {
+  width: 30%;
+}
+
+.second_items_section :nth-child(2) {
+  width: 40%;
+  align-self: flex-start;
+}
+.img_section {
+  display: flex;
+  align-items: center;
+  gap: 1.1875rem;
+}
+
+.price_items {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: #411530;
+}
+
+.input_btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.input_btn :nth-child(1) {
+  width: 20px;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+.input_btn :nth-child(2) {
+  width: 30px;
+  border: 1px solid black;
+  text-align: center;
+}
+.input_btn > input[value='2'] {
+  padding-left: 20px;
+  width: 52px;
+}
+
+.input_btn :nth-child(3) {
+  width: 20px;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.summation {
+  padding: 154px 36px 32px 64px;
+}
+.delivery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.grand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.delivery > p:nth-child(1) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  color: #121212;
+}
+.delivery > p:nth-child(2) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #411530;
+}
+
+.grand > p:nth-child(1) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  color: #121212;
+}
+
+.grand > p:nth-child(2) {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #411530;
+}
+.btn_submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6.25rem;
+}
+.btn {
+  background-color: #411530;
+  color: white;
+  padding: 16px 48px;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}

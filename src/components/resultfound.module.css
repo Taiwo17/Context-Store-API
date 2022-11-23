@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.25rem 2.25rem 2rem 4rem;
+}
+.sort_container {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #411530;
+}
+
+.paragraph {
+  margin-right: 2.5rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #411530;
+}
+.select_container {
+  width: 408px;
+  height: 35px;
+  /* padding-left: 134px; */
+}
+.option {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #411530;
+}
